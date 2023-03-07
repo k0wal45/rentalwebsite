@@ -1,0 +1,41 @@
+.btn {
+    padding: 1rem;
+}
+
+.bg-dark {
+    background: var(--dark-color);
+    color: var(--light-color);
+}
+.bg-light {
+    background: var(--light-color);
+    color: var(--dark-color);
+}
+.bg-primary {
+    background: var(--primary-color);
+    color: var(--light-color);
+}
+.bg-secondary {
+    background: var(--secondary-color);
+    color: var(--dark-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.short-line {
+    width: 70px;
+    height: 0;
+    border: 2px solid var(--primary-color);
+
+}
+
+.test {
+    width: 100vw;
+    height: 100vh;
+}

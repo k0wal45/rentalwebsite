@@ -35,7 +35,25 @@ body, html {
     border-radius: 10px;
     box-shadow: 0px 0px 0px 100000vh var(--dark-color);
 }
+/* up-arrow */
 
+.up-arrow {
+    padding: 1rem;
+    border: 3px solid var(--dark-color);
+    background: var(--dark-color);
+    position: fixed;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    z-index: 99999;
+    justify-content: center;
+    align-items: center;
+    bottom: 4rem;
+    right: 4rem;    
+    transition: 1s all ease-in-out;
+    display: flex;
+}
+
+/* header */
 header {
     width: 100vw;
 
@@ -56,8 +74,9 @@ header .header-bar {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
     margin-top: .5rem;
-    
+
 }
 
 header .header-bar img {
@@ -129,6 +148,29 @@ header img {
 
 }
 
+/* header about */
+
+header .header-about {
+    background: url(/zdj/halfcutcar.png) no-repeat fixed center/cover;
+}
+
+header .header-about .header-subs-about {
+    padding: 15vh;
+    display: flex;
+    align-items: end;
+    text-align: right;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+header .header-about .header-subs-about h1 {
+    font-size: 4rem;
+}
+
+header .header-about .header-subs-about p {
+    width:40%;
+    padding: 1rem;
+}
 /* info boxes */
 
 .info-boxes {
@@ -300,9 +342,10 @@ header img {
 
 .how-it-works .showcase i {
     display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
-    width: 10vw;
+    padding: 2rem;
     aspect-ratio: 1/1;
     background: var(--light-color);
     border-radius: 50%;
@@ -435,9 +478,15 @@ header img {
     font-size: 1.2rem;
     padding: .5rem 1rem;
     background: var(--dark-color);
-    box-shadow: 5px 5px var(--primary-color);
+    transition: .5s all;
     margin: 1rem 0rem;
 }
+
+.contact-info a:hover {
+    box-shadow: 5px 5px var(--primary-color);
+}
+
+/*  */
 
 /* footer */
 
@@ -452,3 +501,4 @@ footer {
 footer a {
     text-decoration: underline;
 }
+

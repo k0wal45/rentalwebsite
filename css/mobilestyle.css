@@ -1,0 +1,100 @@
+.up-arrow {
+    display: none;
+}
+
+header .header-bar {
+    flex-direction: column;
+    text-align: center;
+}
+
+header .above-boxes>img {
+    display: none;
+}
+
+header .header-subtitles {
+    margin: auto;
+}
+
+.info-boxes {
+    gap: 0;
+    transform: translateY(0);
+    width: 100vw;
+    flex-direction: column;
+}
+
+.info-boxes .box {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-boxes .box:nth-child(even) {
+    background: var(--dark-color);
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+}
+
+.how-it-works {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    
+}
+
+
+.how-it-works >h2, 
+.how-it-works>.short-line, 
+.how-it-works>h1  {
+    grid-column: 1 / span 2;
+    
+}
+
+.how-it-works>p {
+    display: none;
+}
+
+.how-it-works .showcase {
+    flex-direction: column;
+}
+
+.how-it-works .showcase p {
+display: none;
+}
+
+.how-it-works .showcase-subs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-info section i {
+    display: none;
+}
+
+.about-info .box section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .header-contact .header-subs-about,
+header .header-about .header-subs-about {
+    align-items: center;
+    text-align: center;
+}
+
+header .header-contact .header-subs-about p,
+header .header-about .header-subs-about p {
+    width: 60%;
+}
+

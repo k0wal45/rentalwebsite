@@ -1,0 +1,43 @@
+header .header-bar ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header .header-bar ul a:nth-child(4) {
+    grid-column: 1 / span 3;
+}
+
+header .header-bar ul a:last-child {
+    display: none;
+} 
+
+header .above-boxes .header-subtitles {
+    text-align: center;
+}
+
+.contact-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info h1{
+    font-size: 2rem;
+}
+
+.contact-info h1:last-of-type {
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+header .header-contact .header-subs-about ,
+header .header-about .header-subs-about  {
+    padding: 1rem;
+}

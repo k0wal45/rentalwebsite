@@ -64,7 +64,7 @@ header .above-boxes {
     background: url(/zdj/BWGrill.jpg) no-repeat fixed center/cover;
     align-items: center;
     justify-content: start;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
